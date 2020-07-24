@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applicants",
+  "info": {
+    "name": "applicant"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "student_id": {
+      "type": "string"
+    },
+    "school_id": {
+      "type": "string"
+    },
+    "subjects": {
+      "type": "json"
+    },
+    "stream": {
+      "type": "string"
+    },
+    "student_name": {
+      "type": "string"
+    },
+    "student_school": {
+      "type": "string"
+    },
+    "student_total": {
+      "type": "integer"
+    },
+    "student_percent": {
+      "type": "decimal"
+    }
+  }
+}

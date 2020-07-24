@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_submenus",
+  "info": {
+    "name": "submenu",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

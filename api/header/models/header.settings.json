@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "name": "header"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slogan": {
+      "type": "string"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "bgcolor": {
+      "type": "string"
+    },
+    "fontcolor": {
+      "type": "string"
+    },
+    "buttonbgcolor": {
+      "type": "string"
+    },
+    "buttonfontcolor": {
+      "type": "string"
+    },
+    "menus": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.menu"
+    }
+  }
+}

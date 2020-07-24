@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "name": "Student"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "s_name": {
+      "type": "string"
+    },
+    "s_guad_name": {
+      "type": "string"
+    },
+    "s_res_address": {
+      "type": "string"
+    },
+    "s_sch_name": {
+      "type": "string"
+    },
+    "s_reg_number": {
+      "type": "string"
+    },
+    "s_cast": {
+      "type": "string"
+    },
+    "s_email": {
+      "type": "string"
+    },
+    "s_password": {
+      "type": "password"
+    },
+    "s_sch_address": {
+      "type": "string"
+    },
+    "s_res_pin": {
+      "type": "string"
+    },
+    "s_sch_pin": {
+      "type": "string"
+    },
+    "s_ph_number": {
+      "type": "string"
+    },
+    "s_alt_ph_number": {
+      "type": "string"
+    },
+    "s_first_lang_no": {
+      "type": "string"
+    },
+    "s_sec_lang_no": {
+      "type": "string"
+    },
+    "s_math_no": {
+      "type": "string"
+    },
+    "s_phy_sc_no": {
+      "type": "string"
+    },
+    "s_life_sc_no": {
+      "type": "string"
+    },
+    "s_history_no": {
+      "type": "string"
+    },
+    "s_geography_no": {
+      "type": "string"
+    },
+    "s_op_sub_no": {
+      "type": "string"
+    },
+    "s_result_img": {
+      "type": "text"
+    },
+    "s_cast_cert_img": {
+      "type": "text"
+    },
+    "s_image": {
+      "type": "text"
+    }
+  }
+}

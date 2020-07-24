@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teachers",
+  "info": {
+    "name": "school"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "school_name": {
+      "type": "string"
+    },
+    "school_dise_id": {
+      "type": "integer"
+    },
+    "school_address": {
+      "type": "string"
+    },
+    "school_pin": {
+      "type": "integer"
+    },
+    "school_hm_name": {
+      "type": "string"
+    },
+    "school_rp_name": {
+      "type": "string"
+    },
+    "school_official_mail": {
+      "type": "string"
+    },
+    "school_hm_ph": {
+      "type": "integer"
+    },
+    "school_rp_ph": {
+      "type": "integer"
+    },
+    "school_available_subject": {
+      "type": "json"
+    },
+    "school_payment_option": {
+      "type": "string"
+    },
+    "school_ac_no": {
+      "type": "string"
+    },
+    "school_ifsc_code": {
+      "type": "string"
+    },
+    "school_sp_ph_no": {
+      "type": "integer"
+    },
+    "school_sp_email": {
+      "type": "string"
+    },
+    "school_dd_no": {
+      "type": "string"
+    },
+    "school_dd_submission_date": {
+      "type": "date"
+    },
+    "school_password": {
+      "type": "password"
+    },
+    "school_logo": {
+      "type": "text"
+    },
+    "school_pan_img": {
+      "type": "text"
+    },
+    "school_aadhar_img": {
+      "type": "text"
+    },
+    "school_dd_img": {
+      "type": "text"
+    },
+    "school_sac_img": {
+      "type": "text"
+    }
+  }
+}

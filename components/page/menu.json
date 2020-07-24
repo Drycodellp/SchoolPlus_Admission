@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_menus",
+  "info": {
+    "name": "menu",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "submenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.submenu"
+    }
+  }
+}
